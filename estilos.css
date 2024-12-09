@@ -1,0 +1,90 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgb(89, 7, 136), rgb(255, 36, 156)); 
+    color: #f1f1f1;
+}
+
+header {
+    background-color: #530526;
+    color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #530526;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #f1f1f1;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.presentacion {
+    background: url(fondo1.jpg) no-repeat center/cover;
+    height: 400px;
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    color: #fff;
+    font-size: x-large;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+
+.hero h2 {
+    font-size: 5em;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.mas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.mas-solicitado {
+    background-color: #6e002ed2;
+    border: 1px solid #bd083f;
+    border-radius: 10px;
+    padding: 100px;
+    width: 200px;
+}
+.mojito {
+    width: 200px;
+    height: 300px;
+}
+.piña {
+    width: 300px;
+    height: 300px;
+
+}
+.jagger {
+    width: 200px;
+    height: 300px;
+}
+.barcelo {
+    width: 200px;
+    height: 300px;
+}
+footer {
+    background-color: #240111;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
